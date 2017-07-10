@@ -1,0 +1,6 @@
+framework module BleSDKFramework {
+  umbrella header "BleSDKFramework.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4206F811D82BD6D00B6BCEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4206F801D82BD6D00B6BCEF /* main.m */; };
+		B4206F841D82BD6D00B6BCEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4206F831D82BD6D00B6BCEF /* AppDelegate.m */; };
+		B4206F871D82BD6D00B6BCEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4206F861D82BD6D00B6BCEF /* ViewController.m */; };
+		B4206F8A1D82BD6D00B6BCEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4206F881D82BD6D00B6BCEF /* Main.storyboard */; };
+		B4206F8C1D82BD6D00B6BCEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4206F8B1D82BD6D00B6BCEF /* Assets.xcassets */; };
+		B4206F8F1D82BD6D00B6BCEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4206F8D1D82BD6D00B6BCEF /* LaunchScreen.storyboard */; };
+		B4206F971D82BD8B00B6BCEF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4206F961D82BD8B00B6BCEF /* CoreBluetooth.framework */; };
+		B43F19EF1F13714100C7CDF8 /* BleTransmit.m in Sources */ = {isa = PBXBuildFile; fileRef = B43F19E71F13714100C7CDF8 /* BleTransmit.m */; };
+		B43F19F01F13714100C7CDF8 /* BluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B43F19E91F13714100C7CDF8 /* BluetoothManager.m */; };
+		B43F19F11F13714100C7CDF8 /* XinYuBleDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B43F19EC1F13714100C7CDF8 /* XinYuBleDataParser.m */; };
+		B43F19F21F13714100C7CDF8 /* XinYuBleDataWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B43F19EE1F13714100C7CDF8 /* XinYuBleDataWrapper.m */; };
+		B4A274AD1D864F17004EA7E6 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A274AC1D864F17004EA7E6 /* UIView+CornerRadius.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4206F7C1D82BD6D00B6BCEF /* BleSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4206F801D82BD6D00B6BCEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4206F821D82BD6D00B6BCEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4206F831D82BD6D00B6BCEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4206F851D82BD6D00B6BCEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B4206F861D82BD6D00B6BCEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4206F891D82BD6D00B6BCEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4206F8B1D82BD6D00B6BCEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4206F8E1D82BD6D00B6BCEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4206F901D82BD6D00B6BCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4206F961D82BD8B00B6BCEF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B43F19E61F13714100C7CDF8 /* BleTransmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleTransmit.h; sourceTree = "<group>"; };
+		B43F19E71F13714100C7CDF8 /* BleTransmit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleTransmit.m; sourceTree = "<group>"; };
+		B43F19E81F13714100C7CDF8 /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		B43F19E91F13714100C7CDF8 /* BluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothManager.m; sourceTree = "<group>"; };
+		B43F19EA1F13714100C7CDF8 /* EnumerationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumerationType.h; sourceTree = "<group>"; };
+		B43F19EB1F13714100C7CDF8 /* XinYuBleDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XinYuBleDataParser.h; sourceTree = "<group>"; };
+		B43F19EC1F13714100C7CDF8 /* XinYuBleDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XinYuBleDataParser.m; sourceTree = "<group>"; };
+		B43F19ED1F13714100C7CDF8 /* XinYuBleDataWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XinYuBleDataWrapper.h; sourceTree = "<group>"; };
+		B43F19EE1F13714100C7CDF8 /* XinYuBleDataWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XinYuBleDataWrapper.m; sourceTree = "<group>"; };
+		B4A274AB1D864F17004EA7E6 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		B4A274AC1D864F17004EA7E6 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4206F791D82BD6D00B6BCEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4206F971D82BD8B00B6BCEF /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4206F731D82BD6D00B6BCEF = {
+			isa = PBXGroup;
+			children = (
+				B4206F961D82BD8B00B6BCEF /* CoreBluetooth.framework */,
+				B4206F7E1D82BD6D00B6BCEF /* BleSDK */,
+				B4206F7D1D82BD6D00B6BCEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4206F7D1D82BD6D00B6BCEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4206F7C1D82BD6D00B6BCEF /* BleSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4206F7E1D82BD6D00B6BCEF /* BleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B43F19E51F13714100C7CDF8 /* SourceCode */,
+				B4206F821D82BD6D00B6BCEF /* AppDelegate.h */,
+				B4206F831D82BD6D00B6BCEF /* AppDelegate.m */,
+				B4206F851D82BD6D00B6BCEF /* ViewController.h */,
+				B4206F861D82BD6D00B6BCEF /* ViewController.m */,
+				B4206F881D82BD6D00B6BCEF /* Main.storyboard */,
+				B4206F8B1D82BD6D00B6BCEF /* Assets.xcassets */,
+				B4206F8D1D82BD6D00B6BCEF /* LaunchScreen.storyboard */,
+				B4206F901D82BD6D00B6BCEF /* Info.plist */,
+				B4206F7F1D82BD6D00B6BCEF /* Supporting Files */,
+			);
+			path = BleSDK;
+			sourceTree = "<group>";
+		};
+		B4206F7F1D82BD6D00B6BCEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4A274AB1D864F17004EA7E6 /* UIView+CornerRadius.h */,
+				B4A274AC1D864F17004EA7E6 /* UIView+CornerRadius.m */,
+				B4206F801D82BD6D00B6BCEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B43F19E51F13714100C7CDF8 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				B43F19E61F13714100C7CDF8 /* BleTransmit.h */,
+				B43F19E71F13714100C7CDF8 /* BleTransmit.m */,
+				B43F19E81F13714100C7CDF8 /* BluetoothManager.h */,
+				B43F19E91F13714100C7CDF8 /* BluetoothManager.m */,
+				B43F19EA1F13714100C7CDF8 /* EnumerationType.h */,
+				B43F19EB1F13714100C7CDF8 /* XinYuBleDataParser.h */,
+				B43F19EC1F13714100C7CDF8 /* XinYuBleDataParser.m */,
+				B43F19ED1F13714100C7CDF8 /* XinYuBleDataWrapper.h */,
+				B43F19EE1F13714100C7CDF8 /* XinYuBleDataWrapper.m */,
+			);
+			name = SourceCode;
+			path = SDK/SourceCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4206F7B1D82BD6D00B6BCEF /* BleSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4206F931D82BD6D00B6BCEF /* Build configuration list for PBXNativeTarget "BleSDK" */;
+			buildPhases = (
+				B4206F781D82BD6D00B6BCEF /* Sources */,
+				B4206F791D82BD6D00B6BCEF /* Frameworks */,
+				B4206F7A1D82BD6D00B6BCEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BleSDK;
+			productName = BleSDK;
+			productReference = B4206F7C1D82BD6D00B6BCEF /* BleSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4206F741D82BD6D00B6BCEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = JinQi;
+				TargetAttributes = {
+					B4206F7B1D82BD6D00B6BCEF = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 9KEW2PFL2L;
+					};
+				};
+			};
+			buildConfigurationList = B4206F771D82BD6D00B6BCEF /* Build configuration list for PBXProject "BleSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4206F731D82BD6D00B6BCEF;
+			productRefGroup = B4206F7D1D82BD6D00B6BCEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4206F7B1D82BD6D00B6BCEF /* BleSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4206F7A1D82BD6D00B6BCEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4206F8F1D82BD6D00B6BCEF /* LaunchScreen.storyboard in Resources */,
+				B4206F8C1D82BD6D00B6BCEF /* Assets.xcassets in Resources */,
+				B4206F8A1D82BD6D00B6BCEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4206F781D82BD6D00B6BCEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43F19EF1F13714100C7CDF8 /* BleTransmit.m in Sources */,
+				B4206F871D82BD6D00B6BCEF /* ViewController.m in Sources */,
+				B4206F841D82BD6D00B6BCEF /* AppDelegate.m in Sources */,
+				B43F19F21F13714100C7CDF8 /* XinYuBleDataWrapper.m in Sources */,
+				B4A274AD1D864F17004EA7E6 /* UIView+CornerRadius.m in Sources */,
+				B43F19F01F13714100C7CDF8 /* BluetoothManager.m in Sources */,
+				B4206F811D82BD6D00B6BCEF /* main.m in Sources */,
+				B43F19F11F13714100C7CDF8 /* XinYuBleDataParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4206F881D82BD6D00B6BCEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4206F891D82BD6D00B6BCEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4206F8D1D82BD6D00B6BCEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4206F8E1D82BD6D00B6BCEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4206F911D82BD6D00B6BCEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		B4206F921D82BD6D00B6BCEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		B4206F941D82BD6D00B6BCEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KEW2PFL2L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BleSDK/SDK",
+				);
+				INFOPLIST_FILE = BleSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BleSDK/SDK",
+					"$(PROJECT_DIR)/BleSDK/SDK/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.BleSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		B4206F951D82BD6D00B6BCEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KEW2PFL2L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BleSDK/SDK",
+				);
+				INFOPLIST_FILE = BleSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BleSDK/SDK",
+					"$(PROJECT_DIR)/BleSDK/SDK/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.BleSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4206F771D82BD6D00B6BCEF /* Build configuration list for PBXProject "BleSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4206F911D82BD6D00B6BCEF /* Debug */,
+				B4206F921D82BD6D00B6BCEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4206F931D82BD6D00B6BCEF /* Build configuration list for PBXNativeTarget "BleSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4206F941D82BD6D00B6BCEF /* Debug */,
+				B4206F951D82BD6D00B6BCEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4206F741D82BD6D00B6BCEF /* Project object */;
+}
